@@ -3,7 +3,7 @@ font-family: "Roboto",sans-serif;*/
 
 body {
     font-family: "Roboto", sans-serif;
-    color: #434445;
+    color: #434455;
     background-color: #ffffff;
 }
 
@@ -81,7 +81,7 @@ color: #2e2f42;
 .hero-title {
     font-weight: 700;
         font-size: 56px;
-        line-height: 1.07143;
+        line-height: 1.07;
         letter-spacing: 0.02em;
         text-align: center;
         color: #fff;
@@ -92,8 +92,15 @@ font-weight: 500;
     font-size: 16px;
     line-height: 1.5;
     letter-spacing: 0.04em;
+    background-color: #4D5AE5;
+    cursor: pointer;
     color: #fff;
 }
+
+.hero-btn:hover,
+.hero-btn:focus {
+    background-color: #404BBF;
+} 
 
 .services-list {}
 
@@ -121,13 +128,16 @@ font-weight: 500;
 .team-title {
     font-weight: 700;
         font-size: 36px;
-        line-height: 1.11111;
+        line-height: 1.11;
         letter-spacing: 0.02em;
         text-align: center;
+        text-transform: capitalize;
         color: #2e2f42;
 }
 
-.team-list {}
+.team-list {
+    background-color: #fff;
+}
 
 .team-item {}
 
@@ -153,9 +163,10 @@ font-weight: 500;
 .portfolio-title {
     font-weight: 700;
         font-size: 36px;
-        line-height: 1.11111;
+        line-height: 1.11;
         letter-spacing: 0.02em;
         text-align: center;
+        text-transform: capitalize
         color: #2e2f42;
 }
 
